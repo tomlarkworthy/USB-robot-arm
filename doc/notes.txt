@@ -1,0 +1,3 @@
+To make libusb access robot arm without root permissions:
+sudo chmod -R a+rwx /dev/bus/usb/
+(there should be a way of doing this with udev rules)
